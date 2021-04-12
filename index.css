@@ -1,0 +1,34 @@
+
+li{
+    display:inline;
+    float: right;
+}
+
+a{
+    display:block;
+    padding:8px;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+div.footer{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+div.footerbox{
+    display:inline;
+    float: right;
+}
+
+div.footercontent{
+    display:block;
+    position:fixed;
+    width:50%;
+    bottom:10px;
+}
