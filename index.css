@@ -1,12 +1,12 @@
 
 li{
-    display:inline;
+    display: inline;
     float: right;
 }
 
 a{
-    display:block;
-    padding:8px;
+    display: block;
+    padding: 8px;
 }
 
 ul{
@@ -15,20 +15,27 @@ ul{
     padding: 0;
 }
 
-div.footer{
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
-}
-
-div.footerbox{
-    display:inline;
-    float: right;
-}
-
-div.footercontent{
-    display:block;
+.navbar{
     position:fixed;
-    width:50%;
-    bottom:10px;
+    top: 0;
+    width: 99%
+}
+
+.Google_logo{
+    margin-top: 200px;
+    margin-bottom: auto;
+    padding: 70px 0px 0px 0px;
+    text-align: center;
+}
+
+.Search{
+    margin-top: 8px;
+    padding: 8px;
+    text-align: center;
+}
+
+.footer{
+    position:fixed;
+    bottom: 0;
+    width: 99%
 }
