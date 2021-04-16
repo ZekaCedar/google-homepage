@@ -1,24 +1,28 @@
 
-li{
-    display: inline;
+#topbox{
+    width: 1843px;
+    height: 86px;
+}
+
+.rightbox{
+    width: 284px;
+    height: 86px;
     float: right;
 }
 
-a{
-    display: block;
-    padding: 8px;
+.float-container{
+    /*border: 3px solid black;*/
+    height: 36px;
+    padding-bottom: 40px;
+    padding-left: 82px;
 }
 
-ul{
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar{
-    position:fixed;
-    top: 0;
-    width: 99%
+.floatchildleft{
+    width: 10%;
+    float: left;
+    padding-top: 20px;
+    padding-left: 30px;
+    /*border: 2px solid red;*/
 }
 
 .Google_logo{
@@ -34,8 +38,30 @@ ul{
     text-align: center;
 }
 
-.footer{
+footer{
     position:fixed;
     bottom: 0;
-    width: 99%
+    height: 46px;
+    width: 1846px;
+}
+
+.left{
+    float: left;
+}
+
+.rightf{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+
+.floatchildright{
+    float: right;
+    padding-top: 20px;
+    padding-left: 30px;
+    /*border: 2px solid red;*/
 }
